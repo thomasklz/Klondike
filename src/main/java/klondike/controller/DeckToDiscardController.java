@@ -20,7 +20,7 @@ public class DeckToDiscardController {
 
 	public void execute() {
 		if (deck.getStackCard().isEmpty()) {
-			io.writeln("La baraja est· vacÌa");
+			io.writeln("La baraja est√° vac√≠a");
 		} else {
 			Card card = deck.getStackCard().pop();
 			card.setHidden(false);

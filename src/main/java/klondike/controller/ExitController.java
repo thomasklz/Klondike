@@ -6,6 +6,6 @@ public class ExitController {
 	IO io = new IO();
 	public void ExitKlondike() {
 		
-		io.write("¡Adiós!");
+		io.write("AdiÃ³s!");
 	}
 }

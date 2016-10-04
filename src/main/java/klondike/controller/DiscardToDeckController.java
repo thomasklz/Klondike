@@ -22,7 +22,7 @@ public class DiscardToDeckController {
 				deck.getStackCard().push(discard.getStackCard().pop());
 			}
 		} else {
-			io.writeln("El descarte aún tiene cartas");
+			io.writeln("El descarte aÃºn tiene cartas");
 		}
 	}
 }
